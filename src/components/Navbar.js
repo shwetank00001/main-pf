@@ -29,9 +29,7 @@ const Links = styled.div`
   gap: 50px;
 `;
 
-const Logo = styled.img`
-  height: 50px;
-`;
+
 
 const List = styled.ul`
   display: flex;
@@ -47,11 +45,6 @@ const ListItem = styled.li`
   cursor: pointer;
 `;
 
-const Icons = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 20px;
-`;
 
 
 const Navbar = () => {
