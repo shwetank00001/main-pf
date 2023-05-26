@@ -57,6 +57,7 @@ const Navbar = () => {
             <ListItem>About Me</ListItem>
             <ListItem>Projects</ListItem>
             <ListItem>Contact</ListItem>
+            <ListItem>Resume</ListItem>
           </List>
         </Links>
 
