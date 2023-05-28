@@ -1,10 +1,16 @@
 import React from 'react'
 import styled from "styled-components";
 import Navbar from './Navbar';
+import { Canvas } from '@react-three/fiber'
+import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
+
 
 
 
 const Hero = () => {
+
+
+
   
     const Section = styled.div`
     height: 100vh;
@@ -57,8 +63,7 @@ const Hero = () => {
 
       `
       const Img = styled.img`
-      width: 800px;
-      height: 600px;
+      height: 510px;
       object-fit: contain;
       position: absolute;
       top: 0;
@@ -77,7 +82,7 @@ const Hero = () => {
       `
 
   return (
-    <Section>
+    <Section >
       <Navbar />
           <Container>
             <Left>
@@ -86,13 +91,23 @@ const Hero = () => {
                 <Line src="./img/line.png"/>
                 <Brief>FullStack Dev. </Brief>
               </MySelf>
-              <Desc>Im Shwetank</Desc>
+              <Desc></Desc>
 
             </Left>
 
 
             <Right>
-              <Img src="./img/moon.png" />
+              <Canvas>
+                  <OrbitControls enableZoom={false}/>
+                  <ambientLight intensity={2} />
+                  <directionalLight position={[3,2,1]} />
+                  <Sphere args={[1,100,200]} scale={2.8}> 
+                    <MeshDistortMaterial color="#270736" attach="material" distort={0.5} speed={3}/>
+                  </Sphere>
+
+
+              </Canvas>
+              <Img src="./img/main1.png" />
             </Right>
           </Container>
     </Section>

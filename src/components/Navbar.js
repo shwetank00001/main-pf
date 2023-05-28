@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+import { Link } from "react-scroll";
+
+
 const Section = styled.div`
   display: flex;
   justify-content: center;
@@ -48,12 +51,15 @@ const ListItem = styled.li`
 
 
 const Navbar = () => {
+
+
+
+
   return (
     <Section>
       <Container>
         <Links>
           <List>
-            <ListItem>Home</ListItem>
             <ListItem>About Me</ListItem>
             <ListItem>Projects</ListItem>
             <ListItem>Contact</ListItem>
