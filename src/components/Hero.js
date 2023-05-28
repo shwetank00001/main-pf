@@ -24,7 +24,7 @@ const Hero = () => {
       width: 1400px;
       display: flex;
       justify-content: space-between;
-      
+       
       `
       const Left = styled.div`
       flex: 1;

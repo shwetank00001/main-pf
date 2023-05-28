@@ -44,18 +44,18 @@ const Projects = () => {
             <LeftHeading>  Frontend Projects</LeftHeading>
         
               <p>1. Digital Card</p>
-              <p><LeftLink href="https://github.com/shwetank00001/my-travel-journal"  target="_blank">2. Travel Journal</LeftLink></p>
-              <p><LeftLink href="https://github.com/shwetank00001/Box-Coloring"  target="_blank">3. Box-Coloring </LeftLink></p>
-              <p>4. csgo-flask-miniproject </p>
-              <p><LeftLink href="https://github.com/shwetank00001/Meme-generator" target="_blank"> 5. Meme Generator</LeftLink></p>  
+              <p><LeftLink href="https://travel-journal-shwetank.netlify.app/"  target="_blank">2. Travel Journal</LeftLink></p>
+              <p><LeftLink href="https://box-coloring.netlify.app/"  target="_blank">3. Box-Coloring </LeftLink></p>
+              <p><LeftLink href="https://todo-app-reducer-shwetank.netlify.app/"  target="_blank">4. Todo App using useReducer </LeftLink></p>
+              <p><LeftLink href="https://memegen-shwetank.netlify.app/" target="_blank"> 5. Meme Generator</LeftLink></p>  
               <p> <LeftLink href='https://shwetank00001.github.io/web1/' target="_blank"> 6. Webpage using vanilla HTML and CSS</LeftLink></p> 
           </div>
           <div>
             
             
               <LeftHeading>Fullstack Projects</LeftHeading>
-              <p>1. Basic Crud App using MockAPI</p>
-              <p><LeftLink href="https://github.com/shwetank00001/my-travel-journal"  target="_blank">2. Tenzies Game</LeftLink></p>
+              <p><LeftLink href="https://crud-app-shwetank.netlify.app/"  target="_blank">1. Basic Crud App using MockAPI</LeftLink></p>
+              <p><LeftLink href="https://cartapp-redux.netlify.app/"  target="_blank">2. Shopping App using Redux</LeftLink></p>
               <p><LeftLink href="https://github.com/shwetank00001/Box-Coloring"  target="_blank">3. MERN App </LeftLink></p>
               <p>4. csgo-flask-miniproject </p>
               <p><LeftLink href="https://github.com/shwetank00001/Meme-generator" target="_blank"> 5. Meme Generator</LeftLink></p>  
