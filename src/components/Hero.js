@@ -83,7 +83,7 @@ const Hero = () => {
 
   return (
     <Section >
-      <Navbar />
+      {/* <Navbar /> */}
           <Container>
             <Left>
               <Title>shwetank.</Title>
