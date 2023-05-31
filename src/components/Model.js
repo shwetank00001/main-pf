@@ -14,9 +14,10 @@ const Model = () => {
         <meshStandardMaterial >
             <RenderTexture attach="map">
                 <PerspectiveCamera makeDefault position={[0,0,8]} />
-                    <color attach="background" args={["purple"]} />
+                    <ambientLight intensity={1} />
+                    <color attach="background" args={["gray"]} intensity={1} />
                     <Text fontFamily={"Roboto"} fontSize= {1} color="black">
-                        React
+                        MERN
                     </Text>
             </RenderTexture>
 
