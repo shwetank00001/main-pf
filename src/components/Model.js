@@ -15,10 +15,14 @@ const Model = () => {
             <RenderTexture attach="map">
                 <PerspectiveCamera makeDefault position={[0,0,8]} />
                     <ambientLight intensity={1} />
-                    <color attach="background" args={["gray"]} intensity={1} />
-                    <Text fontFamily={"Roboto"} fontSize= {1} color="black">
+                    <color attach="background" args={["black"]} intensity={1} />
+                    <Text fontFamily={"Roboto"} fontSize= {0.5} color="red">
                         MERN
                     </Text>
+                    <Text position={[-1.5, 1.5, 2]} rotation={[0, 0, 0]} fontFamily="Roboto" fontSize={0.5} color="red">
+                        Front
+                        </Text>
+
             </RenderTexture>
 
         </meshStandardMaterial>

@@ -4,6 +4,7 @@ import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 
 import Model from './Model'
+import TextBall from './TextBall';
 
 
 const About = () => {
@@ -53,7 +54,7 @@ const About = () => {
      
           <Container>
             <Left>
-
+            <TextBall/>
               <Canvas camera={{fov:25 ,position:[8,8,8]}}>
                   <OrbitControls enableZoom={false} autoRotate={true}/>
                   <ambientLight intensity={15} />
