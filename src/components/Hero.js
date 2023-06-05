@@ -39,7 +39,7 @@ const Hero = () => {
       justify-content: center;
       `
       const Title = styled.h1`
-      color: #da4ea2;
+      color: #aa76f5;
       font-size: 50px;
             `
       const MySelf = styled.div`

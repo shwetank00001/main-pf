@@ -40,7 +40,7 @@ const About = () => {
       justify-content: center;`
       
       const Title = styled.h1`
-      color: #da4ea2;
+      color: #aa76f5;
       font-size: 50px; `
 
 
@@ -76,7 +76,7 @@ const About = () => {
                 </Desc>  
                 <Title>My Hobbies</Title>
                 <Desc>
-                  I love to go to Gym, Trade, Play games and also learn new coding ideologies
+                  I love to go to the gym, trade, play games and sports and also I love to learn about new coding ideologies.
                 </Desc>  
             </Right>
           </Container>

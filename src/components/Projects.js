@@ -23,7 +23,7 @@ const Projects = () => {
     `
 
     const LeftHeading = styled.h3`
-    color: #da4ea2;
+    color: #aa76f5;
     `
 
     const LeftLink= styled.a`

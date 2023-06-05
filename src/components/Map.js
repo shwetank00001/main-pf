@@ -40,7 +40,7 @@ const MapChart = () => {
           strokeLinecap: "round"
         }}
       >
-        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#da4ea2">
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#aa76f5">
           {"India- Noida"}
         </text>
       </Annotation>

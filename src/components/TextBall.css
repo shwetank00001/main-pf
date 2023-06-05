@@ -21,12 +21,12 @@
 
 /* Change color of each text in sphere on hover   */
 .tagcloud--item {
-    color: #a49f9f;
+    color: white;
     text-transform: uppercase;
 }
 
 .tagcloud--item:hover {
-    color: #da4ea2;
+    color: #aa76f5;
     cursor: pointer;
 }
             
