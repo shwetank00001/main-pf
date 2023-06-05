@@ -55,12 +55,12 @@ const About = () => {
           <Container>
             <Left>
             <TextBall/>
-              <Canvas camera={{fov:25 ,position:[8,8,8]}}>
+              {/* <Canvas camera={{fov:25 ,position:[8,8,8]}}>
                   <OrbitControls enableZoom={false} autoRotate={true}/>
-                  <ambientLight intensity={15} />
+                  <ambientLight intensity={1} />
                   <directionalLight position={[3,2,1]} />
                   <Model />
-              </Canvas>
+              </Canvas> */}
             </Left>
 
 
