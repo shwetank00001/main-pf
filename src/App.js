@@ -3,7 +3,6 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import styled from "styled-components";
-import ParticlesComp from "./components/ParticlesComp";
 
 
 function App() {
@@ -19,11 +18,11 @@ function App() {
   background-size: 100%;
   background-color: #0f0f0f;
 
+
   `
   return (
     
-    <div>
-      <ParticlesComp />
+
       <Container>
           <Hero />
           <About />
@@ -31,7 +30,6 @@ function App() {
           <Contact />
       </Container>
 
-    </div>
 
   );
 }

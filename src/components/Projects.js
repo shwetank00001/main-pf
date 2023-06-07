@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
 
+
 const Projects = () => {
 
     const Section = styled.div`
@@ -9,11 +10,19 @@ const Projects = () => {
     scroll-behavior: smooth;
     display: flex;
     justify-content: center;
+
+    @media only screen and (max-width: 768px) {
+        padding: 10px;
+    }
+    
     `
     const Container = styled.div`
     width: 1400px;
     display: flex;
     justify-content: space-between;
+    z-index : 999;
+
+
     `
     const Left = styled.div`
     flex: 1;
@@ -35,12 +44,11 @@ const Projects = () => {
         
   return (
     <Section>
-
       <Container>
 
         <Left>
           
-          <h1>Click the project to view source code and the deployment</h1>
+          <h1>Click the project to view source code and the deployment.</h1>
           <div>
             <LeftHeading>  Frontend Projects</LeftHeading>
         

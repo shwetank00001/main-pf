@@ -19,9 +19,9 @@
     font-size: 1.3em;
 }
 
-/* Change color of each text in sphere on hover   */
+
 .tagcloud--item {
-    color: white;
+    color: lightblue;
     text-transform: uppercase;
 }
 

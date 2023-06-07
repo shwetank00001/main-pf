@@ -1,10 +1,8 @@
 import React from 'react'
 import styled from "styled-components";
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls } from '@react-three/drei'
-
-import Model from './Model'
 import TextBall from './TextBall';
+
+
 
 
 const About = () => {
@@ -26,10 +24,14 @@ const About = () => {
       width: 1400px;
       display: flex;
       justify-content: space-between;
-
+      z-index : 999;
       `
       const Left = styled.div`
       flex: 1;
+
+      @media only screen and (max-width: 768px) {
+        display: none;
+    }
       `
 
 
@@ -37,21 +39,36 @@ const About = () => {
       flex: 1;
       display: flex;
       flex-direction: column;
-      justify-content: center;`
+      justify-content: center;
+      
+      @media only screen and (max-width: 768px) {
+        align-items: center;
+        text-align: center;
+    }
+    `
       
       const Title = styled.h1`
       color: #aa76f5;
-      font-size: 50px; `
+      font-size: 50px;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 30px;
+        }
+       `
 
 
       const Desc = styled.p`
       font-size: 19px;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 16px;
+        width: 350px;
+      }
       `
 
 
   return (
     <Section>
-     
           <Container>
             <Left>
             <TextBall/>

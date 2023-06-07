@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from "styled-components";
-import Navbar from './Navbar';
 import { Canvas } from '@react-three/fiber'
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
+import ParticlesComp from './ParticlesComp';
 
 
 
@@ -21,6 +21,7 @@ const Hero = () => {
     justify-content: space-between;
     align-items: center;
 
+
     `
 
 
@@ -30,18 +31,33 @@ const Hero = () => {
       width: 1400px;
       display: flex;
       justify-content: space-between;
-       
+      z-index : 999;
+
+      @media only screen and (max-width: 768px) {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }   
       `
       const Left = styled.div`
       flex: 1;
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      @media only screen and (max-width: 768px) {
+      flex: 1;
+      align-items: center;
+      }
       `
       const Title = styled.h1`
       color: #aa76f5;
       font-size: 50px;
-            `
+      @media only screen and (max-width: 768px) {
+      text-align: center;
+      }
+      `
       const MySelf = styled.div`
       display: flex;
       align-items: center;
@@ -56,10 +72,19 @@ const Hero = () => {
       const Desc = styled.p`
       font-size: 24px;
       color: lightgrey;
+
+      @media only screen and (max-width: 768px) {
+      padding: 20px;
+      text-align: center;
+      }
       `
       const Right = styled.div`
       flex: 2;
       position: relative;
+
+      @media only screen and (max-width: 768px) {
+      flex: 1;
+      }
 
       `
       const Img = styled.img`
@@ -72,6 +97,11 @@ const Hero = () => {
       right: 0;
       margin: auto;
 
+      @media only screen and (max-width: 768px) {
+        width: 300px;
+        height: 300px;
+      }
+
       animation: animate 2s infinite ease alternate;
 
       @keyframes animate{
@@ -83,7 +113,7 @@ const Hero = () => {
 
   return (
     <Section >
-      {/* <Navbar /> */}
+      <ParticlesComp />
           <Container>
             <Left>
               <Title>shwetank.</Title>

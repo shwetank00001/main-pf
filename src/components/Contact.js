@@ -3,9 +3,11 @@ import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import Map from "./Map";
 
+
 const Section = styled.div`
   height: 100vh;
   scroll-snap-align: center;
+  z-index : 999;
 `;
 
 const Container = styled.div`
@@ -13,7 +15,8 @@ const Container = styled.div`
   height: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 50px;     
+  z-index : 999;
 `;
 
 const Left = styled.div`
@@ -21,6 +24,7 @@ const Left = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  z-index : 999;
   font-family: 'Roboto', sans-serif;
   @media only screen and (max-width: 768px) {
     justify-content: center;
@@ -37,6 +41,7 @@ const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 25px;
+  z-index : 999;
 
   @media only screen and (max-width: 768px) {
     width: 300px;
@@ -49,6 +54,7 @@ const Input = styled.input`
   border: none;
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
+  z-index : 999;
 `;
 
 const TextArea = styled.textarea`
@@ -72,6 +78,7 @@ const Button = styled.button`
 
 const Right = styled.div`
   flex: 1;
+  z-index : 999;
 
   @media only screen and (max-width: 768px) {
     display: none;
