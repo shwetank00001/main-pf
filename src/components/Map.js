@@ -20,8 +20,8 @@ const MapChart = () => {
     >
       <Geographies
         geography="/features.json"
-        fill="#0f0f0f"
-        stroke="white"
+        fill="none"
+        stroke="gray"
         strokeWidth={0.5}
       >
         {({ geographies }) =>
@@ -35,7 +35,7 @@ const MapChart = () => {
         dx={0}
         dy={-30}
         connectorProps={{
-          stroke: "#ffffff",
+          stroke: "#90ccfc",
           strokeWidth: 2,
           strokeLinecap: "round"
         }}

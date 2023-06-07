@@ -74,7 +74,6 @@ const Hero = () => {
       color: lightgrey;
 
       @media only screen and (max-width: 768px) {
-      padding: 20px;
       text-align: center;
       }
       `
