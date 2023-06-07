@@ -18,7 +18,10 @@ function App() {
   background-size: 100%;
   background-color: #0f0f0f;
 
-
+  @media only screen and (max-width: 768px) {
+        padding: 10px;
+        overflow-x: hidden;
+    }
   `
   return (
     

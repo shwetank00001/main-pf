@@ -12,7 +12,7 @@ const Projects = () => {
     justify-content: center;
 
     @media only screen and (max-width: 768px) {
-        padding: 10px;
+        
     }
     
     `
@@ -28,18 +28,29 @@ const Projects = () => {
     flex: 1;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
+    
+
+    @media only screen and (max-width: 768px) {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+    }
     `
 
     const LeftHeading = styled.h3`
-    color: #aa76f5;
+    color: lightblue;
     `
 
     const LeftLink= styled.a`
     color:white;
     text-decoration: none;
+    
     `
-
+    const ProjectHeader = styled.h1`
+    color:#aa76f5;
+    `
 
         
   return (
@@ -48,7 +59,7 @@ const Projects = () => {
 
         <Left>
           
-          <h1>Click the project to view source code and the deployment.</h1>
+          <ProjectHeader>Projects</ProjectHeader>
           <div>
             <LeftHeading>  Frontend Projects</LeftHeading>
         
@@ -65,10 +76,10 @@ const Projects = () => {
               <LeftHeading>Fullstack Projects</LeftHeading>
               <p><LeftLink href="https://crud-app-shwetank.netlify.app/"  target="_blank">1. Basic Crud App using MockAPI</LeftLink></p>
               <p><LeftLink href="https://cartapp-redux.netlify.app/"  target="_blank">2. Shopping App using Redux</LeftLink></p>
-              <p><LeftLink href="https://github.com/shwetank00001/Box-Coloring"  target="_blank">3. MERN App </LeftLink></p>
-              <p>4. csgo-flask-miniproject </p>
-              <p><LeftLink href="https://github.com/shwetank00001/Meme-generator" target="_blank"> 5. Meme Generator</LeftLink></p>  
-              <p> <LeftLink href='https://shwetank00001.github.io/web1/' target="_blank"> 6. Webpage using vanilla HTML and CSS</LeftLink></p> 
+              <p><LeftLink href="https://github.com/shwetank00001/CloudTask">3. Task Manager with Express </LeftLink></p>
+              <p><LeftLink href="https://github.com/shwetank00001/csgo-flask-miniproject"  target="_blank">4. CSGO Flask App</LeftLink></p>
+              <p><LeftLink> 5. Jobs API</LeftLink></p>  
+              <p> <LeftLink> 6. Store API</LeftLink></p> 
           </div>
 
         </Left> 
