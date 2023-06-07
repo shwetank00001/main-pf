@@ -35,6 +35,7 @@ const Projects = () => {
         
   return (
     <Section>
+
       <Container>
 
         <Left>

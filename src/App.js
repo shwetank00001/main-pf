@@ -3,7 +3,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import styled from "styled-components";
-import Particles from './components/Particles';
+import ParticlesComp from "./components/ParticlesComp";
 
 
 function App() {
@@ -22,15 +22,17 @@ function App() {
   `
   return (
     
-    <Container>
-      <Particles id="tsparticles" />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
+    <div>
+      <ParticlesComp />
+      <Container>
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+      </Container>
 
+    </div>
 
-    </Container>
   );
 }
 
