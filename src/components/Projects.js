@@ -21,6 +21,7 @@ const Projects = () => {
     display: flex;
     justify-content: space-between;
     z-index : 999;
+    padding: 10px;
 
 
     `
@@ -36,20 +37,35 @@ const Projects = () => {
        justify-content: center;
        align-items: center;
        text-align: center;
+       gap: 20px;
     }
     `
 
     const LeftHeading = styled.h3`
     color: lightblue;
+    font-size: 29px;
+    @media only screen and (max-width: 768px) {
+        font-size: 19px;
+        width: 350px;
+      }
     `
 
     const LeftLink= styled.a`
     color:white;
     text-decoration: none;
+    font-size: 19px;
+    @media only screen and (max-width: 768px) {
+        font-size: 16px;
+        width: 350px;
+      }
     
     `
     const ProjectHeader = styled.h1`
     color:#aa76f5;
+    font-size: 50px;
+    @media only screen and (max-width: 768px) {
+        font-size: 30px;
+      }
     `
 
         
@@ -59,7 +75,7 @@ const Projects = () => {
 
         <Left>
           
-          <ProjectHeader>Projects</ProjectHeader>
+          <ProjectHeader>Click to view my Projects.</ProjectHeader>
           <div>
             <LeftHeading>  Frontend Projects</LeftHeading>
         

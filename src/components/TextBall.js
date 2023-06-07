@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import "./TextBall.css";
 
-// Importing TagCloud package
+
 import TagCloud from "TagCloud";
 
 const TextBall = () => {
-  // Animation settings for Text Cloud
   useEffect(() => {
     return () => {
       const container = ".tagcloud";
@@ -37,12 +36,11 @@ const TextBall = () => {
 
       TagCloud(container, texts, options);
     };
-  }, []);
+  }, [0]);
 
   return (
     <>
       <div className="text-shpere" data-aos="fade-right">
-        {/* span tag className must be "tagcloud"  */}
         <span className="tagcloud"></span>
       </div>
     </>
