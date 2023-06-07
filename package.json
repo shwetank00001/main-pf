@@ -23,10 +23,14 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-simple-maps": "^3.0.0",
+    "react-tsparticles": "^2.10.1",
     "sass": "^1.62.1",
     "styled-components": "^5.3.11",
     "TagCloud": "^2.3.2",
     "three": "^0.152.2",
+    "tsparticles": "^2.10.1",
+    "tsparticles-engine": "^2.10.1",
+    "tsparticles-slim": "^2.10.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -52,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }
