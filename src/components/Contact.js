@@ -115,7 +115,7 @@ const Contact = () => {
       <Container>
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>How did you feel about this page?</Title>
+            <Title>How did you feel about my page?</Title>
             <Input placeholder="Name" name="name" />
             <TextArea
               placeholder="Write your review"
