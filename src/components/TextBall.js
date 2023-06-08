@@ -6,37 +6,35 @@ import TagCloud from "TagCloud";
 
 const TextBall = () => {
   useEffect(() => {
-    return () => {
-      const container = ".tagcloud";
-      const texts = [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Mongo",
-        "Express",
-        "React",
-        "NodeJS",
-        "API",
-        "ES6",
-        "Python",
-        "Django",
-        "GIT",
-        "C++",
-        "GITHUB",
-        "FLASK",
-        "MySQL",
-      ];
+    const container = '.tagcloud';
+    const texts = [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Mongo",
+      "Express",
+      "React",
+      "NodeJS",
+      "API",
+      "ES6",
+      "Python",
+      "Django",
+      "GIT",
+      "C++",
+      "GITHUB",
+      "FLASK",
+      "MySQL",
+    ];
 
-      const options = {
-        radius: 300,
-        maxSpeed: "fast",
-        initSpeed: "fast",
-        keep: true,
-      };
-
-      TagCloud(container, texts, options);
+    const options = {
+      radius: 300 ,
+      maxSpeed: 'normal',
+      initSpeed: 'normal',
+      keep: true,
     };
-  }, [0]);
+
+    TagCloud(container, texts, options);
+  }, []);
 
   return (
     <>
