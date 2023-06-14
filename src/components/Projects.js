@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
+import resume from './shwetank.pdf'
 
 
 const Projects = () => {
@@ -68,6 +69,14 @@ const Projects = () => {
       }
     `
 
+    const Resume = styled.a`
+    color:white;
+    font-size: 30px;
+    @media only screen and (max-width: 768px) {
+        font-size: 30px;
+      }
+    `
+
         
   return (
     <Section>
@@ -75,11 +84,12 @@ const Projects = () => {
 
         <Left>
           
-          <ProjectHeader>Click to view my Projects.</ProjectHeader>
+          <ProjectHeader >Click to view my Projects and <Resume href={resume} download={Resume}  target="_blank">Resume</Resume></ProjectHeader>
           <div>
-            <LeftHeading>  Frontend Projects</LeftHeading>
+            <LeftHeading>Front-end Projects </LeftHeading>
         
-              <p>1. Digital Card</p>
+
+              <p><LeftLink href=""  target="_blank">1. Digital Card</LeftLink></p>
               <p><LeftLink href="https://travel-journal-shwetank.netlify.app/"  target="_blank">2. Travel Journal</LeftLink></p>
               <p><LeftLink href="https://box-coloring.netlify.app/"  target="_blank">3. Box-Coloring </LeftLink></p>
               <p><LeftLink href="https://todo-app-reducer-shwetank.netlify.app/"  target="_blank">4. Todo App using useReducer </LeftLink></p>
