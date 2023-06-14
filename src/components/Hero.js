@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Canvas } from '@react-three/fiber'
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
 import ParticlesComp from './ParticlesComp';
-
+import {FaGithub} from 'react-icons/fa'
 
 
 
@@ -110,6 +110,12 @@ const Hero = () => {
       }
       `
 
+
+    const Icon = styled.a`
+    font-size:25px;
+    color: gray;
+    `
+
   return (
     <Section >
       <ParticlesComp />
@@ -118,7 +124,8 @@ const Hero = () => {
               <Title>shwetank.</Title>
               <MySelf>
                 <Line src="./img/line.png"/>
-                <Brief>FullStack Dev. </Brief>
+                <Brief>FullStack Dev.  </Brief>
+                <Icon href='https://github.com/shwetank00001' target="_blank"><FaGithub /></Icon >
               </MySelf>
               <Desc></Desc>
 
