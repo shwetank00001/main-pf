@@ -89,9 +89,9 @@ const Projects = () => {
             <LeftHeading>Front-end Projects </LeftHeading>
         
 
-              <p><LeftLink href=""  target="_blank">1. Digital Card</LeftLink></p>
+              <p><LeftLink href="https://shwetank-dev.netlify.app/"  target="_blank">1. Digital Card</LeftLink></p>
               <p><LeftLink href="https://travel-journal-shwetank.netlify.app/"  target="_blank">2. Travel Journal</LeftLink></p>
-              <p><LeftLink href="https://box-coloring.netlify.app/"  target="_blank">3. Box-Coloring </LeftLink></p>
+              <p><LeftLink href="https://cartapp-redux.netlify.app/"  target="_blank">3. Shopping App using Redux</LeftLink></p>
               <p><LeftLink href="https://todo-app-reducer-shwetank.netlify.app/"  target="_blank">4. Todo App using useReducer </LeftLink></p>
               <p><LeftLink href="https://memegen-shwetank.netlify.app/" target="_blank"> 5. Meme Generator</LeftLink></p>  
               <p> <LeftLink href='https://shwetank00001.github.io/web1/' target="_blank"> 6. Webpage using vanilla HTML and CSS</LeftLink></p> 
@@ -100,12 +100,12 @@ const Projects = () => {
             
             
               <LeftHeading>Fullstack Projects</LeftHeading>
-              <p><LeftLink href="https://crud-app-shwetank.netlify.app/"  target="_blank">1. Basic Crud App using MockAPI</LeftLink></p>
-              <p><LeftLink href="https://cartapp-redux.netlify.app/"  target="_blank">2. Shopping App using Redux</LeftLink></p>
-              <p><LeftLink href="https://github.com/shwetank00001/CloudTask">3. Task Manager with Express </LeftLink></p>
-              <p><LeftLink href="https://github.com/shwetank00001/csgo-flask-miniproject"  target="_blank">4. CSGO Flask App</LeftLink></p>
+              <p><LeftLink href="https://crud-app-shwetank.netlify.app/"  target="_blank">1. CRUD App using MockAPI</LeftLink></p>
+              <p><LeftLink href="https://github.com/shwetank00001/CloudTask">2. Task App Node and Express </LeftLink></p>
+              <p><LeftLink href="https://github.com/shwetank00001/csgo-flask-miniproject"  target="_blank">3. CSGO Flask App</LeftLink></p>
+              <p><LeftLink href="https://shwetank-social-app.netlify.app/"  target="_blank">4. Social App using MERN</LeftLink></p>
               <p><LeftLink> 5. Jobs API</LeftLink></p>  
-              <p> <LeftLink> 6. Store API</LeftLink></p> 
+              <p><LeftLink> 6. Restaurant Service App using MERN</LeftLink></p>  
           </div>
 
         </Left> 

@@ -115,10 +115,10 @@ const Contact = () => {
       <Container>
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>How did you feel about my page?</Title>
+            <Title>Let's connect..</Title>
             <Input placeholder="Name" name="name" />
             <TextArea
-              placeholder="Write your review"
+              placeholder="Your message here.."
               name="message"
               rows={10}
             />
