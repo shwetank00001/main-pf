@@ -94,7 +94,7 @@ const Projects = () => {
               <p><LeftLink href="https://cartapp-redux.netlify.app/"  target="_blank">3. Shopping App using Redux</LeftLink></p>
               <p><LeftLink href="https://todo-app-reducer-shwetank.netlify.app/"  target="_blank">4. Todo App using useReducer </LeftLink></p>
               <p><LeftLink href="https://memegen-shwetank.netlify.app/" target="_blank"> 5. Meme Generator</LeftLink></p>  
-              <p> <LeftLink href='https://shwetank00001.github.io/web1/' target="_blank"> 6. Webpage using vanilla HTML and CSS</LeftLink></p> 
+              <p><LeftLink href='https://github.com/shwetank00001/dashboard_app' target="_blank"> 6. Dashboard App with multiple functions</LeftLink></p> 
           </div>
           <div>
             
