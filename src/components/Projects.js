@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
-import resume from './shwetank.pdf'
+import resume from './shwetankCV.pdf'
 
 
 const Projects = () => {
@@ -88,24 +88,25 @@ const Projects = () => {
           <div>
             <LeftHeading>Front-end Projects </LeftHeading>
         
+              <p><LeftLink href='https://shwetank-main-dashboard-app.netlify.app' target="_blank"> 1. Dashboard App with Multiple Sections</LeftLink></p> 
+              <p><LeftLink href="https://cartapp-redux.netlify.app/"  target="_blank">2. Shopping App using Redux</LeftLink></p>
+              <p><LeftLink href="https://todo-app-reducer-shwetank.netlify.app/"  target="_blank">3. Todo App using useReducer </LeftLink></p>
+              <p><LeftLink href="https://memegen-shwetank.netlify.app/" target="_blank"> 4. Meme Generator</LeftLink></p>  
+              <p><LeftLink href="https://travel-journal-shwetank.netlify.app/"  target="_blank">5. Travel Journal</LeftLink></p>
+              <p><LeftLink href="https://shwetank-dev.netlify.app/"  target="_blank">6. Digital Card</LeftLink></p>
 
-              <p><LeftLink href="https://shwetank-dev.netlify.app/"  target="_blank">1. Digital Card</LeftLink></p>
-              <p><LeftLink href="https://travel-journal-shwetank.netlify.app/"  target="_blank">2. Travel Journal</LeftLink></p>
-              <p><LeftLink href="https://cartapp-redux.netlify.app/"  target="_blank">3. Shopping App using Redux</LeftLink></p>
-              <p><LeftLink href="https://todo-app-reducer-shwetank.netlify.app/"  target="_blank">4. Todo App using useReducer </LeftLink></p>
-              <p><LeftLink href="https://memegen-shwetank.netlify.app/" target="_blank"> 5. Meme Generator</LeftLink></p>  
-              <p><LeftLink href='https://shwetank-main-dashboard-app.netlify.app' target="_blank"> 6. Dashboard App with Multiple Sections</LeftLink></p> 
+
           </div>
           <div>
             
             
               <LeftHeading>Fullstack Projects</LeftHeading>
-              <p><LeftLink href="https://crud-app-shwetank.netlify.app/"  target="_blank">1. CRUD App using MockAPI</LeftLink></p>
-              <p><LeftLink href="https://github.com/shwetank00001/CloudTask">2. Task App Node and Express </LeftLink></p>
-              <p><LeftLink href="https://github.com/shwetank00001/csgo-flask-miniproject"  target="_blank">3. CSGO Flask App</LeftLink></p>
-              <p><LeftLink href="https://shwetank-social-app.netlify.app/"  target="_blank">4. Social App using MERN</LeftLink></p>
-              <p><LeftLink> 5. Jobs API</LeftLink></p>  
-              <p><LeftLink> 6. Restaurant Service App using MERN</LeftLink></p>  
+              <p><LeftLink href="https://shwetank-social-app.netlify.app/"  target="_blank">1. Social App using MERN</LeftLink></p>
+              <p><LeftLink href="https://crud-app-shwetank.netlify.app/"  target="_blank">2. CRUD App using MockAPI</LeftLink></p>
+              <p><LeftLink href="https://github.com/shwetank00001/CloudTask">3. Task App Node and Express </LeftLink></p>
+              <p><LeftLink href="https://github.com/shwetank00001/csgo-flask-miniproject"  target="_blank">4. CSGO Flask App</LeftLink></p>
+              <p><LeftLink> 5. Chat MERN App ( in process )</LeftLink></p>  
+              <p><LeftLink> 6. Restaurant Service App ( in process )</LeftLink></p>  
           </div>
 
         </Left> 
