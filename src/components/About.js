@@ -83,9 +83,8 @@ const About = () => {
 
             <Right>
                 <Title>About Me and Work history</Title>
-                <Desc>Hi, all I'm Shwetank and I am aiming to be a Fullstack Developer. I have graduated from Galgotias University and
-                 I was employed at HCL Tech as a SQL Dev. I always had a good interest in Fullstack Development so I left HCL and started working for different startups.
-                 To enhance my skills and also, I wanted to experience different work cultures.
+                <Desc>Hello, I'm Shwetank, and I'm dedicated to pursuing a career as a Fullstack Developer. I hold a degree from Galgotias University and have gained valuable experience during my tenure at HCL Technologies, where I worked as a SQL Developer. Driven by my passion for Fullstack Development, I made a deliberate choice to transition to various startups. This decision was motivated by my desire to not only augment my skill set but also to immerse myself in diverse work environments and cultures.
+                  I am committed to continuous learning and growth, and I'm excited about the opportunities and challenges that the world of Fullstack Development offers. I look forward to contributing my expertise and collaborating with like-minded professionals to create impactful solutions in the field.
                 </Desc> 
                 <Title>My Skills</Title>
                 <Desc>
